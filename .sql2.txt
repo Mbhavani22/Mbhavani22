@@ -1,0 +1,23 @@
+INSERT INTO employees (
+    employee_id,
+    first_name,
+    last_name,
+    email,
+    phone_number,
+    hire_date,
+    job_id,
+    salary,
+    manager_id,
+    department_id
+) VALUES (
+    1,
+    'John',
+    'Doe',
+    'john.doe@example.com',
+    '555-1234',
+    '2025-03-01',
+    'DEV',
+    60000.00,
+    NULL,
+    101
+);
